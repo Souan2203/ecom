@@ -74,7 +74,7 @@ const Body = () => {
 
       {/* New Arrivals Section */}
       <section className="py-10">
-        <div className="flex justify-center mb-8">
+        <div id="arr" className="flex justify-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold font-serif">
             New Arrivals
           </h2>
