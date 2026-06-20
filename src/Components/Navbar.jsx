@@ -47,12 +47,12 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link
-                to="/"
+               <a
+                href="#arr"
                 className="hover:text-blue-500 transition-colors"
               >
                 New Arrivals
-              </Link>
+              </a>
             </li>
           </ul>
 
