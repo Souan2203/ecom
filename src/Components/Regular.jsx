@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import regular from "../assets/regular.jpg";
-import reg2 from "../assets/reg2.jpg";
+import reg2 from "../assets/Reg2.jpg";
 import reg3 from "../assets/reg3.jpg";
 import reg4 from "../assets/reg4.jpg";
 import reg5 from "../assets/reg5.jpg";
