@@ -12,6 +12,7 @@ import Ladies from './Components/Ladies'
 import Over from './Components/Over'
 import Shirt from './Components/Shirt'
 import AddtoCart from './Components/AddtoCart'
+import Shop from './Components/Shop'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/over' element={<Over/>}/>
         <Route path='/shirt' element={<Shirt/>}/>
         <Route path='/cart' element={<AddtoCart/>}/>
+        <Route path='/shop' element={<Shop/>}/>
       </Routes>
     </div>
   )

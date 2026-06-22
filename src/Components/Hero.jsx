@@ -5,6 +5,7 @@ import hero1 from "../assets/hero1.png";
 import fashion1 from "../assets/fashion1.png";
 import fashion2 from "../assets/fashion2.png";
 import shoe from "../assets/shoe.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const slides = [
@@ -120,7 +121,8 @@ const Hero = () => {
               </motion.p>
 
               {/* Button */}
-              <motion.button
+             <Link to="/shop">
+               <motion.button
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
@@ -131,6 +133,7 @@ const Hero = () => {
               >
                 Shop Now
               </motion.button>
+             </Link>
             </div>
           </div>
         </div>

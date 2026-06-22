@@ -34,11 +34,7 @@ const Footer = () => {
                   New Arrivals
                 </a>
               </li>
-              <li>
-                <a href="/" className="hover:text-white transition">
-                  Contact Us
-                </a>
-              </li>
+              
             </ul>
           </div>
 
